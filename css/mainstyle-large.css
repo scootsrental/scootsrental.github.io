@@ -1,0 +1,22 @@
+/* Media Query for medium+ views */
+@media only screen and (min-width: 64.063em) {
+   
+    /* Navegation style */
+    .navigation {
+      display: flex;
+    }
+  
+    .navigation li {
+      display: block;
+      flex   : 1 1 auto;
+    }
+  
+    .navigation a {
+      text-align: center;
+    }
+  
+    .navigation li:first-child {
+      display: none;
+    }
+
+}    
