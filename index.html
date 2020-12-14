@@ -20,6 +20,16 @@
 </head>
 
 <body>
+
+  <div class="ShowHide" id="Bar">
+    <div id="right">
+      <button onclick="Hide(Bar);">Close</button>
+    </div>
+    <div id="left">
+      
+    </div>
+  </div>
+
   <header>
     <figure>
       <img src="./img/scooter-min.png" alt="Scooter Rent logo">
@@ -34,8 +44,8 @@
   <nav>
     <ul class="navigation">
       <li><a onclick="showMenu()" href="#">☰</a></li>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="Rentals.html">Rentals</a></li>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="rentals.html">Rentals</a></li>
       <li><a href="reservations.html">Reservations</a></li>
       <li><a href="tours.html">Tours</a></li>
       <li><a href="contact.html">Contact</a></li>
@@ -57,7 +67,7 @@
       <section class="callaction">
         <h2>what are you wait for?</h2>
         <p>Do not waste time!</p>
-        <a href="Rentals.html">Clic here to rent</a>
+        <a href="rentals.html">Clic here to rent</a>
       </section>
 
     </section>
@@ -82,13 +92,13 @@
         <div class="">
           <img src="img/wheater.png" alt="Wheater Image of ">
           <p><span id="cityname"></span></p>
-          <p><span id="currently"></span></p>
-          <p><span id="temp"></span>℉</p>
+          <p>Current Condition: <span id="currently"></span></p>
+          <p>Current Temperature: <span id="temp"></span>℉</p>
           <p>Humidity: <span id="humidity"></span></p>
         </div>
         <div class="dayforecast">
 
-        </div>
+        </div>        
       </div>
 
       <div class="services-ul">
@@ -109,7 +119,7 @@
 
   <footer>
     <p> &copy;
-      <script>currentYear(); wheaterData(20.51,	-86.95);</script>
+      <script>currentYear(); wheaterData(20.51, -86.95);</script>
       Getzels N. De Los Santos | Dominican Republic | <span id="currentdate"></span>
     </p>
     <div class="socialmedia">
