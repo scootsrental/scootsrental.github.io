@@ -80,9 +80,6 @@ nav ul {
   max-width: 100%;
 }
 
-.homeimagencontainer {
-}
-
 .callaction {
   display: block;
   background-color: #f4796b;
@@ -177,6 +174,7 @@ nav ul {
 
 /* Form  */
 form {
+  display: flex;
   margin: 0 auto;
   width: 75%;
   margin-bottom: 20px;
@@ -234,6 +232,38 @@ input:valid {
   text-align: center;
 }
 
+.catalogue {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 5px;
+}
+
+.catalogue-image {
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.catalogue table{
+  text-align: center;
+  width: 100%;
+}
+
+.info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 12px;
+}
+
+info_articles {
+  padding: 10px;
+}
+
+.info_articles img{
+  width: 495px;
+  height: 305px;
+  padding: 10px;
+}
 
 /* Footer style */
 footer {

@@ -24,4 +24,15 @@
         padding: 2px 16px;
     }
 
+    .catalogue {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 5px;
+    }
+    
+    .catalogue-image {
+      padding: 10px;
+      text-align: center;
+    }
+
 }
