@@ -251,7 +251,7 @@ input:valid {
 
 .info{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   padding: 12px;
 }
 
@@ -263,6 +263,25 @@ info_articles {
   width: 495px;
   height: 305px;
   padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+}
+
+.Contact-Information {
+  padding: 5px;
+}
+
+.Information-and-Services {
+  padding: 5px;
+}
+
+.General-Information {
+  padding: 5px;
 }
 
 /* Footer style */
