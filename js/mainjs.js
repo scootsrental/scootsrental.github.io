@@ -26,8 +26,8 @@ function setConfMessage() {
 
 function loadJSON() {
 
-    // const request = new Request("../data/scooterinventory.json");
-    const request = new Request("https://scootsrental.github.io/data/scooterinventory.json");
+    const request = new Request("../data/scooterinventory.json");
+    // const request = new Request("https://scootsrental.github.io/data/scooterinventory.json");
 
     fetch(request)
         .then(function (response) {
