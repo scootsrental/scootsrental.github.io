@@ -92,7 +92,8 @@ nav ul {
 .content {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 2px 16px;
+  padding-right: 3px;
+  padding-left: 20px;
 }
 
 .content div {
